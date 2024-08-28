@@ -1,13 +1,16 @@
 
 import Controller.AdminController;
+import Controller.InterfaceController;
+import Controller.PartnerController;
 
 public class App {
     
     public static void main(String[] args) {
-        AdminController controller = new AdminController();
-        
+        InterfaceController controllerAdmin = new AdminController();
+        InterfaceController controllerPartner = new PartnerController();     
         try{
-            controller.createUser();
+            controllerAdmin.session();
+            controllerPartner.session();
         }
         catch(Exception e){
             System.out.println(e.getMessage());

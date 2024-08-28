@@ -8,6 +8,6 @@ package Controller;
  *
  * @author USUARIO
  */
-public class PersonController {
+public class GuestController {
     
 }
