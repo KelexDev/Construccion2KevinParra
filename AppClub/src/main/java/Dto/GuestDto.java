@@ -42,7 +42,4 @@ public class GuestDto {
     public void setStatus(boolean status) {
         this.status = status;
     }
-    
-    
-    
 }

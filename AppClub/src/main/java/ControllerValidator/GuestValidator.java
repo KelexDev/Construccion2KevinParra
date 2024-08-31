@@ -1,8 +1,9 @@
 package ControllerValidator;
 
-public class PersonValidator extends CommonsValidator{ //Esta heredando el 
 
-    public PersonValidator(){
+public class GuestValidator extends CommonsValidator {
+
+    public GuestValidator(){
         super();
     }
     

@@ -12,47 +12,44 @@ public class User {
     
     
     
-    public long getid(){
+    public long getId(){
         return id;
     }
     
-    public void setid(long id){
+    public void setId(long id){
         this.id = id; 
     }
     
-    public String getuserName(){
+    public String getUserName(){
         return userName;
     }
     
-    public void setuserName(String userName){
+    public void setUserName(String userName){
         this.userName = userName;
     }
     
-    public String getpassword(){
+    public String getPassword(){
         return password;
     }
     
-    public void setpassword(String password){
+    public void setPassword(String password){
         this.password = password;
     }
     
-    public String getrol(){
+    public String getRol(){
         return rol;
     }
     
-    public void setrol(String rol){
+    public void setRol(String rol){
         this.rol = rol;
     }
     
-    public Person getpersonId(){
+    public Person getPersonId(){
         return personId;
     }
     
-    public void getpersonId(Person personId){
+    public void setPersonId(Person personId){
         this.personId = personId;
     }
-    
-    
-    
     
 }
